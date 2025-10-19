@@ -1,6 +1,6 @@
 package stringhash
 
-import "github.com/neurlang/classifier/hash"
+import "github.com/Nemo08/classifier/hash"
 
 type Sample struct {
 	Str string

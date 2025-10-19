@@ -1,7 +1,7 @@
 // Package crossattention implements a cross attetion connected layer and combiner
 package crossattention
 
-import "github.com/neurlang/classifier/layer"
+import "github.com/Nemo08/classifier/layer"
 
 type CrossAttentionLayer struct {
 	qkv         bool

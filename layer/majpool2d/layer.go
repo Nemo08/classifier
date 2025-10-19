@@ -1,7 +1,7 @@
 // Package majpool2d implements a 2D majority pooling layer and combiner
 package majpool2d
 
-import "github.com/neurlang/classifier/layer"
+import "github.com/Nemo08/classifier/layer"
 
 type MajPool2DLayer struct {
 	width, height, subwidth, subheight, capwidth, capheight, repeat, bias int

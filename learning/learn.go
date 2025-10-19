@@ -6,8 +6,8 @@ import "math/rand"
 import crypto_rand "crypto/rand"
 import "encoding/binary"
 
-import "github.com/neurlang/classifier/datasets"
-import "github.com/neurlang/classifier/hashtron"
+import "github.com/Nemo08/classifier/datasets"
+import "github.com/Nemo08/classifier/hashtron"
 
 type modulo_t = uint32
 

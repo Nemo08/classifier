@@ -1,7 +1,7 @@
 package hashtron
 
 import "github.com/neurlang/quaternary"
-import "github.com/neurlang/classifier/hash"
+import "github.com/Nemo08/classifier/hash"
 import "sort"
 
 // Forward calculates the hashtron output on single feaure sample (32 bit uint)

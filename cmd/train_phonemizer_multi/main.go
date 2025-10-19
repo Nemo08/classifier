@@ -3,20 +3,20 @@ package main
 import "sync/atomic"
 import "flag"
 
-import "github.com/neurlang/classifier/datasets/phonemizer_multi"
+import "github.com/Nemo08/classifier/datasets/phonemizer_multi"
 
-//import "github.com/neurlang/classifier/layer/majpool2d"
-import "github.com/neurlang/classifier/layer/sum"
-import "github.com/neurlang/classifier/layer/sochastic"
+//import "github.com/Nemo08/classifier/layer/majpool2d"
+import "github.com/Nemo08/classifier/layer/sum"
+import "github.com/Nemo08/classifier/layer/sochastic"
 
-//import "github.com/neurlang/classifier/layer/parity"
-import "github.com/neurlang/classifier/layer/crossattention"
-import "github.com/neurlang/classifier/datasets"
+//import "github.com/Nemo08/classifier/layer/parity"
+import "github.com/Nemo08/classifier/layer/crossattention"
+import "github.com/Nemo08/classifier/datasets"
 
-//import "github.com/neurlang/classifier/learning"
-import "github.com/neurlang/classifier/net/feedforward"
-import "github.com/neurlang/classifier/parallel"
-import "github.com/neurlang/classifier/trainer"
+//import "github.com/Nemo08/classifier/learning"
+import "github.com/Nemo08/classifier/net/feedforward"
+import "github.com/Nemo08/classifier/parallel"
+import "github.com/Nemo08/classifier/trainer"
 
 func error_abs(a, b uint32) uint32 {
 	if a > b {

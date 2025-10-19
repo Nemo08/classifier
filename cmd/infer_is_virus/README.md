@@ -8,7 +8,7 @@ sudo apt-get install golang
 ```
 2. Install infer_is_virus
 ```
-go install github.com/neurlang/classifier/cmd/infer_is_virus@latest
+go install github.com/Nemo08/classifier/cmd/infer_is_virus@latest
 ```
 ## Usage
 

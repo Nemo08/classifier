@@ -12,22 +12,22 @@ import (
 	"sync/atomic"
 	"time"
 
-	"github.com/neurlang/classifier/datasets"
-	"github.com/neurlang/classifier/datasets/phonemizer"
-	"github.com/neurlang/classifier/hashtron"
-	"github.com/neurlang/classifier/layer/crossattention"
-	"github.com/neurlang/classifier/layer/sochastic"
-	"github.com/neurlang/classifier/layer/sum"
-	"github.com/neurlang/classifier/net/feedforward"
-	"github.com/neurlang/classifier/parallel"
+	"github.com/Nemo08/classifier/datasets"
+	"github.com/Nemo08/classifier/datasets/phonemizer"
+	"github.com/Nemo08/classifier/hashtron"
+	"github.com/Nemo08/classifier/layer/crossattention"
+	"github.com/Nemo08/classifier/layer/sochastic"
+	"github.com/Nemo08/classifier/layer/sum"
+	"github.com/Nemo08/classifier/net/feedforward"
+	"github.com/Nemo08/classifier/parallel"
 	"github.com/neurlang/quaternary"
 )
 
-//import "github.com/neurlang/classifier/layer/majpool2d"
+//import "github.com/Nemo08/classifier/layer/majpool2d"
 
-//import "github.com/neurlang/classifier/layer/parity"
+//import "github.com/Nemo08/classifier/layer/parity"
 
-//import "github.com/neurlang/classifier/learning"
+//import "github.com/Nemo08/classifier/learning"
 
 func error_abs(a, b uint32) (out uint32) {
 	xor := a ^ b

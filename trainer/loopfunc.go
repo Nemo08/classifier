@@ -5,8 +5,8 @@ import "fmt"
 import "math/rand"
 import "time"
 
-import "github.com/neurlang/classifier/net/feedforward"
-import "github.com/neurlang/classifier/parallel"
+import "github.com/Nemo08/classifier/net/feedforward"
+import "github.com/Nemo08/classifier/parallel"
 
 func NewLoopFunc(net feedforward.FeedforwardNetwork, succ *int, treshold int, evaluate func() (int, [32]byte), trainWorst func([]int, int) (undo func())) func() {
 

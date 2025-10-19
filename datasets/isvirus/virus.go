@@ -1,7 +1,7 @@
 // Package isvirus implements the IsVirus TLSH file Hashes machine learning Dataset
 package isvirus
 
-import "github.com/neurlang/classifier/datasets/stringhash"
+import "github.com/Nemo08/classifier/datasets/stringhash"
 
 type Dataslice struct {}
 

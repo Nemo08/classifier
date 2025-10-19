@@ -2,7 +2,7 @@
 package conv2d
 
 import "fmt"
-import "github.com/neurlang/classifier/layer"
+import "github.com/Nemo08/classifier/layer"
 
 type Conv2DLayer struct {
 	width, height, subwidth, subheight, repeat int

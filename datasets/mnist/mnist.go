@@ -8,7 +8,7 @@ import "io"
 import "compress/gzip"
 import "bytes"
 import "strings"
-import "github.com/neurlang/classifier/datasets/stringhash"
+import "github.com/Nemo08/classifier/datasets/stringhash"
 
 func userHomeDir() string {
 	dirname, err := os.UserHomeDir()

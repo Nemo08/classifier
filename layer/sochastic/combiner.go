@@ -1,6 +1,6 @@
 package sochastic
 
-import "github.com/neurlang/classifier/hash"
+import "github.com/Nemo08/classifier/hash"
 
 // Put inserts a boolean at position n.
 func (f *Sochastic) Put(n int, v bool) {

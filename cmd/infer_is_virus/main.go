@@ -8,10 +8,10 @@ import "sync/atomic"
 import "flag"
 
 //import "os"
-import "github.com/neurlang/classifier/datasets/isvirus"
-import "github.com/neurlang/classifier/layer/majpool2d"
-import "github.com/neurlang/classifier/net/feedforward"
-import "github.com/neurlang/classifier/parallel"
+import "github.com/Nemo08/classifier/datasets/isvirus"
+import "github.com/Nemo08/classifier/layer/majpool2d"
+import "github.com/Nemo08/classifier/net/feedforward"
+import "github.com/Nemo08/classifier/parallel"
 
 func error_abs(a, b uint16) uint16 {
 	if a > b {

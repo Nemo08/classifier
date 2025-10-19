@@ -2,7 +2,7 @@ package feedforward
 
 import rand "math/rand"
 
-//import "github.com/neurlang/classifier/hash"
+//import "github.com/Nemo08/classifier/hash"
 
 func (f FeedforwardNetwork) Sequence(reverse bool) (o []int) {
 

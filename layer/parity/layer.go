@@ -1,7 +1,7 @@
 // Package parity implements a parity layer and combiner
 package parity
 
-import "github.com/neurlang/classifier/layer"
+import "github.com/Nemo08/classifier/layer"
 
 type ParityLayer struct {
 	size int

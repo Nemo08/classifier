@@ -1,6 +1,6 @@
 package phonemizer
 
-import "github.com/neurlang/classifier/hash"
+import "github.com/Nemo08/classifier/hash"
 import "github.com/jbarham/primegen"
 import (
 	"bufio"

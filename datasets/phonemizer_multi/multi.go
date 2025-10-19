@@ -11,7 +11,7 @@ import (
 	"unicode"
 	"slices"
 
-	"github.com/neurlang/classifier/hash"
+	"github.com/Nemo08/classifier/hash"
 
 	"github.com/neurlang/NumToWordsGo/NumToWords"
 )

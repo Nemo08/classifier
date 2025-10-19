@@ -1,7 +1,7 @@
 // Package isalnum implements the IsAlnum Dataset
 package isalnum
 
-import "github.com/neurlang/classifier/datasets"
+import "github.com/Nemo08/classifier/datasets"
 
 type Dataslice struct {}
 

@@ -1,10 +1,10 @@
 // Package feedforward implements a feedforward network type
 package feedforward
 
-import "github.com/neurlang/classifier/hashtron"
-import "github.com/neurlang/classifier/hash"
-import "github.com/neurlang/classifier/layer"
-import "github.com/neurlang/classifier/datasets"
+import "github.com/Nemo08/classifier/hashtron"
+import "github.com/Nemo08/classifier/hash"
+import "github.com/Nemo08/classifier/layer"
+import "github.com/Nemo08/classifier/datasets"
 
 // Intermediate is an intermediate value used as both layer input and layer output in optimization
 type Intermediate interface {

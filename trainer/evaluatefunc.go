@@ -3,8 +3,8 @@ package trainer
 import "fmt"
 import "math"
 
-import "github.com/neurlang/classifier/parallel"
-import "github.com/neurlang/classifier/net/feedforward"
+import "github.com/Nemo08/classifier/parallel"
+import "github.com/Nemo08/classifier/net/feedforward"
 
 type dummy struct{}
 

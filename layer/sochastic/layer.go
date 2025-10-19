@@ -1,7 +1,7 @@
 // Package sochastic implements a sochastic connected layer and combiner
 package sochastic
 
-import "github.com/neurlang/classifier/layer"
+import "github.com/Nemo08/classifier/layer"
 
 type SochasticLayer struct {
 	size int

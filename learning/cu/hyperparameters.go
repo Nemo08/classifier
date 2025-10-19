@@ -5,7 +5,7 @@ import (
 	"os"
 )
 
-import "github.com/neurlang/classifier/learning"
+import "github.com/Nemo08/classifier/learning"
 import "gorgonia.org/cu"
 
 // SetLogger sets the output logger file where hashtron golang code programs are written

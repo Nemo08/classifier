@@ -1,6 +1,6 @@
 package trainer
 
-import "github.com/neurlang/classifier/net/feedforward"
+import "github.com/Nemo08/classifier/net/feedforward"
 
 func Resume(net feedforward.FeedforwardNetwork, resume *bool, dstmodel *string) {
 	if resume != nil && *resume && dstmodel != nil {

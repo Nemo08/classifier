@@ -15,7 +15,7 @@ import (
 	"os"
 	"strings"
 
-	"github.com/neurlang/classifier/hash"
+	"github.com/Nemo08/classifier/hash"
 )
 
 const (

@@ -1,7 +1,7 @@
 // Package sum implements a sum layer and combiner
 package sum
 
-import "github.com/neurlang/classifier/layer"
+import "github.com/Nemo08/classifier/layer"
 import "sync/atomic"
 
 type SumLayer struct {
