@@ -1,12 +1,14 @@
 package trainer
 
-import "fmt"
-import "runtime"
+import (
+	"fmt"
+	"runtime"
 
-import "github.com/neurlang/classifier/datasets"
-import "github.com/neurlang/quaternary"
-import "github.com/neurlang/classifier/net/feedforward"
-import "github.com/neurlang/classifier/hashtron"
+	"github.com/Nemo08/classifier/datasets"
+	"github.com/Nemo08/classifier/hashtron"
+	"github.com/Nemo08/classifier/net/feedforward"
+	"github.com/Nemo08/quaternary"
+)
 
 func NewTrainWorstFunc(net feedforward.FeedforwardNetwork, minpremodulo, premodulo, maxpremodulo *int,
 	tallyFunc func(w []int, t datasets.AnyTally)) func(worst []int, succ int) (undo func()) {
