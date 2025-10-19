@@ -7,7 +7,7 @@ import (
 	"github.com/Nemo08/classifier/datasets"
 	"github.com/Nemo08/classifier/hashtron"
 	"github.com/Nemo08/classifier/net/feedforward"
-	"github.com/Nemo08/quaternary"
+	"github.com/neurlang/quaternary"
 )
 
 func NewTrainWorstFunc(net feedforward.FeedforwardNetwork, minpremodulo, premodulo, maxpremodulo *int,
